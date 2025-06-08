@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>1.0.0</Version>
+        <Authors>Samuel Lucas</Authors>
+        <Description>Generic transforms for committing AEAD.</Description>
+        <Copyright>Copyright (c) 2025 Samuel Lucas</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/samuel-lucas6/generic-committing-aead-transforms</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/samuel-lucas6/generic-committing-aead-transforms</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>caead aead committing-aead authenticated-encryption committing-security aead-commitment generic-transforms</PackageTags>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Geralt" Version="3.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="AdvancedTransforms\" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCommittingAeadTransforms", "GenericCommittingAeadTransforms\GenericCommittingAeadTransforms.csproj", "{026212C5-DA1C-4B54-9D02-791E00526AAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCommittingAEAD.Tests", "GenericCommittingAEAD.Tests\GenericCommittingAEAD.Tests.csproj", "{099539A1-F048-4C7B-954A-640FEB12CD1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{026212C5-DA1C-4B54-9D02-791E00526AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026212C5-DA1C-4B54-9D02-791E00526AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026212C5-DA1C-4B54-9D02-791E00526AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026212C5-DA1C-4B54-9D02-791E00526AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099539A1-F048-4C7B-954A-640FEB12CD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099539A1-F048-4C7B-954A-640FEB12CD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099539A1-F048-4C7B-954A-640FEB12CD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099539A1-F048-4C7B-954A-640FEB12CD1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
